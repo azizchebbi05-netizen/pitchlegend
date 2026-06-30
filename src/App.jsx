@@ -7,7 +7,8 @@ import Services from "./components/services";
 import Contact from "./components/contact";
 import Messages from "./components/Messages";
 import Footer from "./components/Footer";
-import Login from "./components/Login";
+// Ensure the dynamic import is correctly assigned
+const Login = React.lazy(() => import('./components/Login'));
 
 export default function App() {
   const [isAdmin, setIsAdmin] = useState(false);
