@@ -1,7 +1,10 @@
-import { useState } from "react";
-import Login from "./components/Login";
-import Messages from "./components/Messages";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 import Players from "./components/Players";
+import Services from "./components/Services";
+import contact from "./components/contact";
+import Messages from "./components/Messages";
+import Footer from "./components/Footer";
 export default function App() {
   const [isAdmin, setIsAdmin] = useState(false);
 

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
 
-export default function Contact() {
+export default function contact() {
   const [name, setName] = useState("");
 
   const send = async () => {
