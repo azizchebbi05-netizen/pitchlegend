@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 export default function Login({ onLogin }) {
   const [password, setPassword] = useState("");
 

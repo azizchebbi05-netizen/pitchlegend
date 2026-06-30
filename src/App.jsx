@@ -6,6 +6,7 @@ import contact from "./components/contact";
 import Messages from "./components/Messages";
 import Footer from "./components/Footer";
 import { useCallback, useMemo, useState } from "react";
+import Login from "./components/Login";
 export default function App() {
   const [isAdmin, setIsAdmin] = useState(false);
 
@@ -20,3 +21,4 @@ export default function App() {
     </div>
   );
 }
+export default Login;
